@@ -1,0 +1,15 @@
+@import 'src/_variables.scss';
+
+
+.winners {
+    .winners-header {
+        font-size: 3em;
+    }
+
+    .winner {
+        font-size: 1.5em;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

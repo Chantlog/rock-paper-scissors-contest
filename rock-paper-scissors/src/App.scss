@@ -1,0 +1,9 @@
+@import '_variables.scss';
+
+.App {
+  height: 100vh;
+  background-color: $background-color;
+  font-family: $font-regular;
+  min-width: 1000px;
+  overflow-x: auto;
+}

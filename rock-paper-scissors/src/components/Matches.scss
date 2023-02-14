@@ -1,0 +1,35 @@
+@import 'src/_variables.scss';
+
+.matches {
+    color: $text-color-primary;
+    padding-bottom: 50px;
+
+    .header {
+        padding: 10px;
+        text-align: center;
+        font-size: 5em;
+
+        .logout {
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px;
+            font-size: .25em;
+        }
+
+        .skip-button {
+            display: flex;
+            justify-content: flex-end;
+            float: right;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+    }
+
+    .champion {
+        color: $text-color-secondary;
+        margin-top: 50px;
+        font-size: 4em;
+        font-weight: bold;
+        margin-left: 10%;
+    }
+}

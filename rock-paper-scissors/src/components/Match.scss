@@ -1,0 +1,30 @@
+@import 'src/_variables.scss';
+
+.match {
+    width: fit-content;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: space-around;
+
+    .contestant {
+        margin: 0 5px;
+        width: 300px;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .arrows {
+        margin: 0 5px;
+
+        .arrow {
+            font-size: 1em;
+            padding: 0px 30px;
+        }
+
+        .selected {
+            background-color: $text-color-secondary;
+        }
+    }
+}

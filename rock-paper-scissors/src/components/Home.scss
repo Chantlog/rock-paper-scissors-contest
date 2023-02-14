@@ -1,0 +1,32 @@
+@import 'src/_variables.scss';
+
+.home {
+    color: $text-color-primary;
+    overflow: hidden;
+
+    .header {
+        padding: 10px;
+        text-align: center;
+        min-height: 200px;
+        font-size: 5em;
+        margin-bottom: 10px;
+
+        .login {
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 10px 0 10px;
+            font-size: .25em;
+        }
+
+        .subheader {
+            padding-top: 10px;
+            font-size: .5em;
+            color: $text-color-secondary;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

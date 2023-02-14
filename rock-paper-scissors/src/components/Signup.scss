@@ -1,0 +1,21 @@
+@import 'src/_variables.scss';
+
+
+.signup {
+    .signup-header {
+        font-size: 3em;
+    }
+
+    .title {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .contestants {
+        font-size: 1.5em;
+        padding: 5px;
+        max-height: 300px;
+        overflow-y: auto;
+        color: $text-color-secondary;
+    }
+}

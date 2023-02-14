@@ -1,0 +1,25 @@
+@import 'src/_variables.scss';
+
+.signup-form {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    font-size: 1.5em;
+
+    .label {
+        display: inherit;
+        width: 100%;
+
+    }
+
+    .signup-field {
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    .submit-button {
+        padding: 5px 30px;
+        margin-left: 10px;
+
+    }
+
+}
